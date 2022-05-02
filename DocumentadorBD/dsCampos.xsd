@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCampos" targetNamespace="http://tempuri.org/dsCampos.xsd" xmlns:mstns="http://tempuri.org/dsCampos.xsd" xmlns="http://tempuri.org/dsCampos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SigaDemoConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SigaDemoConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DocumentadorBD.My.MySettings.GlobalReference.Default.SigaDemoConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCampos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsCampos" msprop:Generator_UserDSName="dsCampos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TablaCampos" msprop:Generator_TableClassName="TablaCamposDataTable" msprop:Generator_TableVarName="tableTablaCampos" msprop:Generator_TablePropName="TablaCampos" msprop:Generator_RowDeletingName="TablaCamposRowDeleting" msprop:Generator_RowChangingName="TablaCamposRowChanging" msprop:Generator_RowEvHandlerName="TablaCamposRowChangeEventHandler" msprop:Generator_RowDeletedName="TablaCamposRowDeleted" msprop:Generator_UserTableName="TablaCampos" msprop:Generator_RowChangedName="TablaCamposRowChanged" msprop:Generator_RowEvArgName="TablaCamposRowChangeEvent" msprop:Generator_RowClassName="TablaCamposRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ITEM" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="ITEM" msprop:Generator_ColumnVarNameInTable="columnITEM" msprop:Generator_ColumnPropNameInTable="ITEMColumn" msprop:Generator_UserColumnName="ITEM" type="xs:string" default="&quot; &quot;" minOccurs="0" />
+              <xs:element name="NOMBRE_TABLA" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="NOMBRE_TABLA" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_TABLA" msprop:Generator_ColumnPropNameInTable="NOMBRE_TABLAColumn" msprop:Generator_UserColumnName="NOMBRE_TABLA" type="xs:string" default="&quot; &quot;" minOccurs="0" />
+              <xs:element name="CAMPO" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="CAMPO" msprop:Generator_ColumnVarNameInTable="columnCAMPO" msprop:Generator_ColumnPropNameInTable="CAMPOColumn" msprop:Generator_UserColumnName="CAMPO" type="xs:string" default="&quot; &quot;" minOccurs="0" />
+              <xs:element name="Es_nulo" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Es_nulo" msprop:Generator_ColumnVarNameInTable="columnEs_nulo" msprop:Generator_ColumnPropNameInTable="Es_nuloColumn" msprop:Generator_UserColumnName="Es_nulo" type="xs:string" default="FALSE" minOccurs="0" />
+              <xs:element name="TipoCampo" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="TipoCampo" msprop:Generator_ColumnVarNameInTable="columnTipoCampo" msprop:Generator_ColumnPropNameInTable="TipoCampoColumn" msprop:Generator_UserColumnName="TipoCampo" type="xs:string" default="&quot; &quot;" minOccurs="0" />
+              <xs:element name="Tamano" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Tamano" msprop:Generator_ColumnVarNameInTable="columnTamano" msprop:Generator_ColumnPropNameInTable="TamanoColumn" msprop:Generator_UserColumnName="Tamano" type="xs:string" default="&quot; &quot;" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
