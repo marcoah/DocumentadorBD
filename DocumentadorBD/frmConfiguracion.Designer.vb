@@ -32,7 +32,7 @@ Partial Class frmConfiguracion
         '
         Me.btnGuardar.Location = New System.Drawing.Point(511, 37)
         Me.btnGuardar.Name = "btnGuardar"
-        Me.btnGuardar.Size = New System.Drawing.Size(80, 27)
+        Me.btnGuardar.Size = New System.Drawing.Size(82, 23)
         Me.btnGuardar.TabIndex = 1
         Me.btnGuardar.Text = "Guardar"
         Me.btnGuardar.UseVisualStyleBackColor = True
@@ -42,7 +42,7 @@ Partial Class frmConfiguracion
         Me.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.btnCancelar.Location = New System.Drawing.Point(511, 83)
         Me.btnCancelar.Name = "btnCancelar"
-        Me.btnCancelar.Size = New System.Drawing.Size(80, 27)
+        Me.btnCancelar.Size = New System.Drawing.Size(82, 23)
         Me.btnCancelar.TabIndex = 2
         Me.btnCancelar.Text = "Cancelar"
         Me.btnCancelar.UseVisualStyleBackColor = True
@@ -56,9 +56,9 @@ Partial Class frmConfiguracion
         '
         'btnProbar
         '
-        Me.btnProbar.Location = New System.Drawing.Point(511, 143)
+        Me.btnProbar.Location = New System.Drawing.Point(511, 466)
         Me.btnProbar.Name = "btnProbar"
-        Me.btnProbar.Size = New System.Drawing.Size(79, 23)
+        Me.btnProbar.Size = New System.Drawing.Size(82, 23)
         Me.btnProbar.TabIndex = 4
         Me.btnProbar.Text = "Probar Conexion"
         Me.btnProbar.UseVisualStyleBackColor = True
