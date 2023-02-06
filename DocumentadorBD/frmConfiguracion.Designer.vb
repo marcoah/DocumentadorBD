@@ -32,7 +32,7 @@ Partial Class frmConfiguracion
         '
         Me.btnGuardar.Location = New System.Drawing.Point(511, 37)
         Me.btnGuardar.Name = "btnGuardar"
-        Me.btnGuardar.Size = New System.Drawing.Size(82, 23)
+        Me.btnGuardar.Size = New System.Drawing.Size(82, 40)
         Me.btnGuardar.TabIndex = 1
         Me.btnGuardar.Text = "Guardar"
         Me.btnGuardar.UseVisualStyleBackColor = True
@@ -40,9 +40,9 @@ Partial Class frmConfiguracion
         'btnCancelar
         '
         Me.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnCancelar.Location = New System.Drawing.Point(511, 83)
+        Me.btnCancelar.Location = New System.Drawing.Point(511, 95)
         Me.btnCancelar.Name = "btnCancelar"
-        Me.btnCancelar.Size = New System.Drawing.Size(82, 23)
+        Me.btnCancelar.Size = New System.Drawing.Size(82, 38)
         Me.btnCancelar.TabIndex = 2
         Me.btnCancelar.Text = "Cancelar"
         Me.btnCancelar.UseVisualStyleBackColor = True
